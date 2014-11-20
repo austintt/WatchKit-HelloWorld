@@ -13,6 +13,15 @@
 		D9D75D5C1A1E53F3001BA644 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D75D5B1A1E53F3001BA644 /* Images.xcassets */; };
 		D9D75D5F1A1E53F3001BA644 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D75D5D1A1E53F3001BA644 /* LaunchScreen.xib */; };
 		D9D75D6B1A1E53F3001BA644 /* ReallyGreatWatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D75D6A1A1E53F3001BA644 /* ReallyGreatWatchAppTests.swift */; };
+		D9D75D7B1A1E53FF001BA644 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D75D7A1A1E53FF001BA644 /* WatchKit.framework */; };
+		D9D75D811A1E53FF001BA644 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D75D801A1E53FF001BA644 /* InterfaceController.swift */; };
+		D9D75D831A1E53FF001BA644 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D75D821A1E53FF001BA644 /* NotificationController.swift */; };
+		D9D75D851A1E53FF001BA644 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D75D841A1E53FF001BA644 /* Images.xcassets */; };
+		D9D75D891A1E53FF001BA644 /* ReallyGreatWatchApp Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = D9D75D881A1E53FF001BA644 /* ReallyGreatWatchApp Watch App.app */; };
+		D9D75D901A1E53FF001BA644 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D75D8F1A1E53FF001BA644 /* Interface.storyboard */; };
+		D9D75D921A1E53FF001BA644 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D75D911A1E53FF001BA644 /* Images.xcassets */; };
+		D9D75D951A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D9D75D781A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D9D75D9E1A1E5429001BA644 /* blueBackWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D75D9D1A1E5429001BA644 /* blueBackWatch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +32,35 @@
 			remoteGlobalIDString = D9D75D4E1A1E53F3001BA644;
 			remoteInfo = ReallyGreatWatchApp;
 		};
+		D9D75D8A1A1E53FF001BA644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D75D471A1E53F3001BA644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D75D871A1E53FF001BA644;
+			remoteInfo = "ReallyGreatWatchApp Watch App";
+		};
+		D9D75D931A1E53FF001BA644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D75D471A1E53F3001BA644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D75D771A1E53FF001BA644;
+			remoteInfo = "ReallyGreatWatchApp WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9D75D9C1A1E5400001BA644 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D9D75D951A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D9D75D4F1A1E53F3001BA644 /* ReallyGreatWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReallyGreatWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +73,18 @@
 		D9D75D641A1E53F3001BA644 /* ReallyGreatWatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReallyGreatWatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D75D691A1E53F3001BA644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9D75D6A1A1E53F3001BA644 /* ReallyGreatWatchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReallyGreatWatchAppTests.swift; sourceTree = "<group>"; };
+		D9D75D781A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ReallyGreatWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D75D7A1A1E53FF001BA644 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		D9D75D7E1A1E53FF001BA644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D75D7F1A1E53FF001BA644 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		D9D75D801A1E53FF001BA644 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D9D75D821A1E53FF001BA644 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D9D75D841A1E53FF001BA644 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9D75D881A1E53FF001BA644 /* ReallyGreatWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReallyGreatWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D75D8E1A1E53FF001BA644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D75D8F1A1E53FF001BA644 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		D9D75D911A1E53FF001BA644 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9D75D9D1A1E5429001BA644 /* blueBackWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBackWatch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +102,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9D75D751A1E53FF001BA644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D75D7B1A1E53FF001BA644 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +118,9 @@
 			children = (
 				D9D75D511A1E53F3001BA644 /* ReallyGreatWatchApp */,
 				D9D75D671A1E53F3001BA644 /* ReallyGreatWatchAppTests */,
+				D9D75D7C1A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension */,
+				D9D75D8C1A1E53FF001BA644 /* ReallyGreatWatchApp Watch App */,
+				D9D75D791A1E53FF001BA644 /* Frameworks */,
 				D9D75D501A1E53F3001BA644 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +130,8 @@
 			children = (
 				D9D75D4F1A1E53F3001BA644 /* ReallyGreatWatchApp.app */,
 				D9D75D641A1E53F3001BA644 /* ReallyGreatWatchAppTests.xctest */,
+				D9D75D781A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension.appex */,
+				D9D75D881A1E53FF001BA644 /* ReallyGreatWatchApp Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +174,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9D75D791A1E53FF001BA644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D75D7A1A1E53FF001BA644 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D75D7C1A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D9D75D801A1E53FF001BA644 /* InterfaceController.swift */,
+				D9D75D821A1E53FF001BA644 /* NotificationController.swift */,
+				D9D75D841A1E53FF001BA644 /* Images.xcassets */,
+				D9D75D7D1A1E53FF001BA644 /* Supporting Files */,
+			);
+			path = "ReallyGreatWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D9D75D7D1A1E53FF001BA644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9D75D7E1A1E53FF001BA644 /* Info.plist */,
+				D9D75D7F1A1E53FF001BA644 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9D75D8C1A1E53FF001BA644 /* ReallyGreatWatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D9D75D8F1A1E53FF001BA644 /* Interface.storyboard */,
+				D9D75D911A1E53FF001BA644 /* Images.xcassets */,
+				D9D75D8D1A1E53FF001BA644 /* Supporting Files */,
+			);
+			path = "ReallyGreatWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		D9D75D8D1A1E53FF001BA644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9D75D9D1A1E5429001BA644 /* blueBackWatch.png */,
+				D9D75D8E1A1E53FF001BA644 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +231,12 @@
 				D9D75D4B1A1E53F3001BA644 /* Sources */,
 				D9D75D4C1A1E53F3001BA644 /* Frameworks */,
 				D9D75D4D1A1E53F3001BA644 /* Resources */,
+				D9D75D9C1A1E5400001BA644 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D9D75D941A1E53FF001BA644 /* PBXTargetDependency */,
 			);
 			name = ReallyGreatWatchApp;
 			productName = ReallyGreatWatchApp;
@@ -150,6 +261,39 @@
 			productReference = D9D75D641A1E53F3001BA644 /* ReallyGreatWatchAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D9D75D771A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D75D991A1E5400001BA644 /* Build configuration list for PBXNativeTarget "ReallyGreatWatchApp WatchKit Extension" */;
+			buildPhases = (
+				D9D75D741A1E53FF001BA644 /* Sources */,
+				D9D75D751A1E53FF001BA644 /* Frameworks */,
+				D9D75D761A1E53FF001BA644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D75D8B1A1E53FF001BA644 /* PBXTargetDependency */,
+			);
+			name = "ReallyGreatWatchApp WatchKit Extension";
+			productName = "ReallyGreatWatchApp WatchKit Extension";
+			productReference = D9D75D781A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D9D75D871A1E53FF001BA644 /* ReallyGreatWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D75D961A1E5400001BA644 /* Build configuration list for PBXNativeTarget "ReallyGreatWatchApp Watch App" */;
+			buildPhases = (
+				D9D75D861A1E53FF001BA644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReallyGreatWatchApp Watch App";
+			productName = "ReallyGreatWatchApp Watch App";
+			productReference = D9D75D881A1E53FF001BA644 /* ReallyGreatWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +309,12 @@
 					D9D75D631A1E53F3001BA644 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = D9D75D4E1A1E53F3001BA644;
+					};
+					D9D75D771A1E53FF001BA644 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D9D75D871A1E53FF001BA644 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +333,8 @@
 			targets = (
 				D9D75D4E1A1E53F3001BA644 /* ReallyGreatWatchApp */,
 				D9D75D631A1E53F3001BA644 /* ReallyGreatWatchAppTests */,
+				D9D75D771A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension */,
+				D9D75D871A1E53FF001BA644 /* ReallyGreatWatchApp Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +354,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D75D761A1E53FF001BA644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D75D891A1E53FF001BA644 /* ReallyGreatWatchApp Watch App.app in Resources */,
+				D9D75D851A1E53FF001BA644 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D75D861A1E53FF001BA644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D75D901A1E53FF001BA644 /* Interface.storyboard in Resources */,
+				D9D75D921A1E53FF001BA644 /* Images.xcassets in Resources */,
+				D9D75D9E1A1E5429001BA644 /* blueBackWatch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +396,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9D75D741A1E53FF001BA644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D75D831A1E53FF001BA644 /* NotificationController.swift in Sources */,
+				D9D75D811A1E53FF001BA644 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +412,16 @@
 			isa = PBXTargetDependency;
 			target = D9D75D4E1A1E53F3001BA644 /* ReallyGreatWatchApp */;
 			targetProxy = D9D75D651A1E53F3001BA644 /* PBXContainerItemProxy */;
+		};
+		D9D75D8B1A1E53FF001BA644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D75D871A1E53FF001BA644 /* ReallyGreatWatchApp Watch App */;
+			targetProxy = D9D75D8A1A1E53FF001BA644 /* PBXContainerItemProxy */;
+		};
+		D9D75D941A1E53FF001BA644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D75D771A1E53FF001BA644 /* ReallyGreatWatchApp WatchKit Extension */;
+			targetProxy = D9D75D931A1E53FF001BA644 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ReallyGreatWatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ReallyGreatWatchApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +578,62 @@
 			};
 			name = Release;
 		};
+		D9D75D971A1E5400001BA644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ReallyGreatWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "ReallyGreatWatchApp Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D9D75D981A1E5400001BA644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = ReallyGreatWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "ReallyGreatWatchApp Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D9D75D9A1A1E5400001BA644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReallyGreatWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9D75D9B1A1E5400001BA644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ReallyGreatWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +659,22 @@
 			buildConfigurations = (
 				D9D75D721A1E53F3001BA644 /* Debug */,
 				D9D75D731A1E53F3001BA644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9D75D961A1E5400001BA644 /* Build configuration list for PBXNativeTarget "ReallyGreatWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D75D971A1E5400001BA644 /* Debug */,
+				D9D75D981A1E5400001BA644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9D75D991A1E5400001BA644 /* Build configuration list for PBXNativeTarget "ReallyGreatWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D75D9A1A1E5400001BA644 /* Debug */,
+				D9D75D9B1A1E5400001BA644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
